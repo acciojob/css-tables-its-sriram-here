@@ -1,1 +1,51 @@
 /*  your css code here. If applicable */
+ body {
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;/
+            padding: 1rem;
+        }
+
+      
+        th, td {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 0.5rem;
+            text-align: left; 
+        }
+
+    
+        table {
+            border-collapse: separate; */
+            border-spacing: 0; 
+            overflow: hidden; 
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+        }
+
+        table th:first-child,
+        table td:first-child {
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+        table th:last-child,
+        table td:last-child {
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+
+        tbody tr:nth-child(odd) {
+            background-color: #f2f2f2; 
+
+        tbody tr:nth-child(even) {
+            background-color: #ffffff; 
+        }
+
+     
+        thead tr {
+            background-color: #ffffff; 
+        }
